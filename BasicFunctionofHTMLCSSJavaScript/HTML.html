@@ -1,0 +1,17 @@
+<html>
+  <h1>Green Screen Problem</h1>
+  <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+  <h2>Foreground Image</h2>
+  <p><canvas id="fgcan"> </canvas>
+    <input type = "file" multiple="false" accept="image/*" id="fgfile" onchange="loadForeGroundImage()">  
+  </p>
+  <h2>BackGround Image</h2>
+  <p>  <canvas id="bgcan"> </canvas>
+    <input type = "file" multiple="false" accept="image/*" id="bgfile" onchange="loadBackGroundImage()">  
+  </p>
+  <h2>Resulting Image</h2>
+  <p>
+    <input type="button" value="creat composite" onclick="doGreenScreen()">
+    <input type="button" value="Clear Canvases" onclick="clearCanvas()" >
+    
+</html>
