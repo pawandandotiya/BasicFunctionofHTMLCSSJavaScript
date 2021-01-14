@@ -1,0 +1,68 @@
+th
+{
+  color:blue;
+  text-align:center;
+}
+table
+{
+  text-align:center;
+}
+td
+{
+  color:green;
+  text-align:center;
+}
+h1
+{
+  text-align:center;
+  color:blue;
+}
+p
+{
+  color:orange;
+  text-align:center;
+}
+em
+{
+  color:red;
+}
+a
+{
+  color:black;
+}
+.Fruits
+{
+  color:red;
+}
+.unorderedList
+{
+  color:green;
+}
+body
+{
+  background-color:#23F4EA;
+}
+
+.myclass
+{
+  background-color: orange;
+  
+}
+.myclass2
+{
+  background-color:fuchsia;
+  
+}
+
+#div1
+{
+  font-size: 13pt;
+  color:blue;
+}
+
+#div2
+{
+  font-size: 14pt;
+  color:black;
+}
+
