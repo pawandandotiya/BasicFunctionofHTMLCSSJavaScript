@@ -21,6 +21,7 @@ p
 {
   color:orange;
   text-align:center;
+  font-size: 15pt;
 }
 em
 {
@@ -44,15 +45,7 @@ body
 }
 
 .myclass
-{
-  background-color: orange;
-  
-}
 .myclass2
-{
-  background-color:fuchsia;
-  
-}
 
 #div1
 {
