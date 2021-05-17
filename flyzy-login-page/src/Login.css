@@ -1,0 +1,48 @@
+.Login-Card {
+  width: 40%;
+  height: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+h2 {
+  color: darkblue;
+}
+
+body {
+  background-color: cornsilk;
+}
+
+.Login {
+  background-color: cornsilk;
+  font-family: system-ui;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3e4b46;
+  color: white;
+  width: 50%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
